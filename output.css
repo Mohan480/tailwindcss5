@@ -24,23 +24,24 @@
 .table {
   display: table;
 }
-.size-\[12px\] {
-  width: 12px;
-  height: 12px;
-}
-.size-fit {
-  width: fit-content;
-  height: fit-content;
-}
 .size-full {
   width: 100%;
   height: 100%;
+}
+.h-\[12px\] {
+  height: 12px;
 }
 .h-full {
   height: 100%;
 }
 .h-screen {
   height: 100vh;
+}
+.w-\[12px\] {
+  width: 12px;
+}
+.w-fit {
+  width: fit-content;
 }
 .border-collapse {
   border-collapse: collapse;
@@ -157,11 +158,10 @@
   --tw-duration: 1000ms;
   transition-duration: 1000ms;
 }
-.hover\:size-1\/6 {
+.hover\:w-1\/6 {
   &:hover {
     @media (hover: hover) {
       width: calc(1/6 * 100%);
-      height: calc(1/6 * 100%);
     }
   }
 }
